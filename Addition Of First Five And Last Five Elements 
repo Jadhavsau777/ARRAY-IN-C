@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+    {
+      int a[10],i,sum=0,sum1=0;
+      clrscr();
+      
+      printf("Enter 10 Elements:\n");
+      
+      for(i=0;i<=9;i++)
+      {
+      scanf("%d",&a[i]);
+      }
+      
+      for(i=0;i<=4;i++)
+      {
+      sum=sum+a[i];
+      sum1=sum1+a[i+5];
+      }
+      
+      printf("The Sum Of First Five Elements Is %d\n",sum);
+      printf("The Sum Of Last Five Elements is %d",sum1);
+      getch();
+      
+ }
