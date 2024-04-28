@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+    {
+      int a[10],b[10],i,j=9;
+      clrscr();
+      printf("Enter 10 Elements:\n");
+      
+      for(i=0;i<=9;i++)
+      {
+      scanf("%d",&a[i]);
+      }
+      
+      for(i=0;i<=9;i++,j--)
+      {
+      b[j] = a[i];
+      }
+      
+      printf("\nThe Reverse Of Array Is\n");
+      for(i=0;i<=9;i++)
+      {
+      printf("%d\n",b[i]);
+      }
+      getch();
+      
+ }
