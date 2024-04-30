@@ -1,0 +1,31 @@
+  
+
+#include<conio.h>
+
+void main()
+{
+      int a[10],i,lar;
+      clrscr();
+      
+      printf("Enter 10 Elements:\n");
+      
+      for(i=0;i<=9;i++)
+      {
+      scanf("%d",&a[i]);
+      }
+      
+      lar=a[0];
+      
+      for(i=0;i<=9;i++)
+      {
+        if(a[i]>lar)
+        {
+          lar=a[i];
+        }
+      }  
+         printf("%d is The Largest",lar);
+      
+      
+      getch();
+      
+ }
