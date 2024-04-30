@@ -1,0 +1,39 @@
+
+#include<conio.h>
+
+void main()
+{
+      int a[10],i,flag=0,ele;
+      clrscr();
+      
+      printf("Enter 10 Elements:\n");
+      
+      for(i=0;i<=9;i++)
+      {
+      scanf("%d",&a[i]);
+      }
+      
+      printf("Enter Element To Search\n");
+      scanf("%d",&ele);
+      
+      
+      for(i=0;i<=9;i++)
+      {
+         if(a[i]==ele)
+         {
+         flag++;
+         }
+      }
+      
+      if(flag!=0)
+      {
+      printf("Element Is Present In The Array\n");
+      }
+      else
+      {
+      printf("Element Not Present In The Array\n");
+      }
+      
+      getch();
+      
+ }
